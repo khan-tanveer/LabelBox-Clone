@@ -1,0 +1,42 @@
+.automation {
+  /* margin-bottom: 40rem; */
+}
+
+.automation__image {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.automation__conatiner {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.automation__title {
+  letter-spacing: 1px;
+  padding: 2rem;
+  margin-top: 8rem;
+  margin-left: auto;
+}
+
+.automation__content {
+  margin-right: auto;
+  letter-spacing: 1px;
+  color: white;
+  padding: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+
+.automation__header {
+  letter-spacing: 1px;
+  margin-left: auto;
+  padding: 2rem;
+  color: white;
+}

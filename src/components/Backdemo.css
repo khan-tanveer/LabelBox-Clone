@@ -1,0 +1,22 @@
+.backdemo {
+  background-color: rgb(5, 26, 59);
+  color: white;
+  padding: 2rem;
+}
+
+.backdemo__image {
+  margin-top: 5rem;
+  height: 300px;
+  width: 550px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .backdemo__image {
+    margin-top: 1rem;
+    height: 200px;
+    width: 300px;
+  }
+}

@@ -1,0 +1,27 @@
+.perceptually {
+  background-color: rgb(5, 26, 59);
+  color: white;
+  padding: 5rem;
+  letter-spacing: 1px;
+}
+
+.preceptually__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 650px;
+}
+
+@media only screen and (max-width: 768px) {
+  .preceptually__image {
+    height: 200px;
+    width: 250px;
+  }
+
+  .perceptually {
+    padding: 2rem;
+    letter-spacing: 1px;
+  }
+}

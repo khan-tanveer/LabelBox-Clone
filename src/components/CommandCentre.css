@@ -1,0 +1,38 @@
+.section2 {
+  margin: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+p {
+  font-size: 20px;
+  color: slategray;
+}
+
+.section2__Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.section2__image {
+  height: 300px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section2__image {
+    height: 200px;
+    width: 300px;
+  }
+
+  .section2 {
+    margin: 1rem;
+  }
+}

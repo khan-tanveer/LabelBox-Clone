@@ -1,0 +1,85 @@
+.section1 {
+  overflow: hidden;
+  /* background-color: rgb(237, 240, 245); */
+}
+
+/* main first.................................. */
+
+.section1__container {
+  margin-top: 5rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px;
+  height: 100%;
+}
+
+/* video part ........................................ */
+
+.section1__video {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30vh;
+}
+
+/* comapanies ........................................ */
+
+.atap_companies {
+  margin-left: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .section1__logos {
+  margin-top: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  margin: 1rem;
+} */
+
+.section1__image {
+  height: 50px;
+  width: 100px;
+  margin: 0.3rem;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+/*  */
+
+/*  */
+
+@media only screen and (max-width: 768px) {
+  .section1__container {
+    margin-top: 0;
+  }
+
+  .section1__video {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* avatar setion ........................  */
+
+  .section1__containeer {
+    margin: 1rem;
+  }
+
+  /* companies */
+  .atap_companies {
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 25px;
+  }
+}

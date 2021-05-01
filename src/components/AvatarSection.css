@@ -1,0 +1,32 @@
+.section1__personIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 217, 212);
+}
+
+.section1__containeer {
+  margin: 5rem;
+}
+
+.section1__avatarName {
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+.section1__avatarImage {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  margin: 1rem;
+}
+
+.secton1__writing {
+  margin-top: 0.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .secton1__writing p {
+    font-size: 15px;
+  }
+}

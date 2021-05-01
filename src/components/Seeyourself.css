@@ -1,0 +1,50 @@
+.seeyourself {
+  width: 100vw;
+  height: 50vh;
+  /* box-sizing: border-box; */
+  margin-top: 3rem;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.seeyourself__Image {
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  /* max-width: 500px; */
+}
+
+.seeyourself__container {
+  /* z-index: 10; */
+  position: relative;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 10rem;
+}
+
+.seeyourself__button {
+  margin-left: 39rem;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    margin-left: 3rem;
+  }
+
+  .seeyourself__button {
+    margin-left: 1rem;
+  }
+
+  .seeyourself__Image {
+    height: 300px;
+    width: 300px;
+  }
+}

@@ -1,0 +1,31 @@
+.howwork {
+  margin: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+p {
+  font-size: 20px;
+  color: slategray;
+}
+
+.section2__Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .howwork {
+    margin: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+  }
+}
